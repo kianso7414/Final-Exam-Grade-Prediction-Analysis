@@ -6,9 +6,9 @@ All analysis is done to enhance the accuracy for predicting student's final exam
 
 The machine learning model is built using logistic regression using only 2500 data points, with only 'Topics' features introduced, with hyperparameter tuned by using Flaml AutoML and EvalML.
 
---------------------------------------------------------------------------------------------------------------------------
+
 Model result in ~35% accuracy in predict their grade, and ~75% accurcy within one sub grade deviation from the prediction.
---------------------------------------------------------------------------------------------------------------------------
+
 
 With the learning curve studied, we see the increasing amount of data may bring limited benefit to the model. However, it can be considered to include more features to better categorized student's grade.
 
